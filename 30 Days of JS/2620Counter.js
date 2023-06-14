@@ -26,17 +26,6 @@ Constraints:
 -1000 <= n <= 1000
 At most 1000 calls to counter() will be made */
 
-/**
- * @param {number} n
- * @return {Function} counter
- */
 var createCounter = function (n) {
   return () => n++;
 };
-
-/**
- * const counter = createCounter(10)
- * counter() // 10
- * counter() // 11
- * counter() // 12
- */

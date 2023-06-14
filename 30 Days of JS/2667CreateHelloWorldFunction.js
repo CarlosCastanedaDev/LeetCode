@@ -25,12 +25,4 @@ Constraints:
 
 0 <= args.length <= 10 */
 
-/**
- * @return {Function}
- */
 const createHelloWorld = () => () => 'Hello World';
-
-/**
- * const f = createHelloWorld();
- * f(); // "Hello World"
- */
